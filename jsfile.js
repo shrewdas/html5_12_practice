@@ -1,6 +1,6 @@
     function compareNumbers() {
         let a = document.getElementById('inputA').value;
-        let a = document.getElementById('inputB').value;
+        let b = document.getElementById('inputB').value;
 
         a = Number(a);
         b = Number(b);

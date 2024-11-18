@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let coupon = prompt("쿠폰 색상을 입력하세요 (빨강, 파랑, 초록)"); // parseInt 제거
+        document.write("쿠폰: " + coupon + "<hr>");
+
+        switch (coupon) {
+            case "빨강":
+                document.write("상품: 전자책 리더기");
+                break;
+            case "파랑":
+                document.write("상품: 무선 이어폰");
+                break;
+            case "초록":
+                document.write("상품: 여행용 배낭");
+                break;
+
+            default:
+                document.write("유효하지 않은 쿠폰입니다.");
+        }
+    </script>
+</body>
+</html>
