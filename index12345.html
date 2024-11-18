@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javaScript 실행</title>
+</head>
+<body>
+    <script>
+        let pizza = parseInt(prompt("주문하실 메뉴를 골라주세요 (1: 치즈피자, 2: 불고기피자, 3: 페퍼로니피자, 4: 포테이토피자)"));
+        document.write("주문하신 " + pizza + "나왔습니다<hr>");
+        switch (pizza) {
+            case 4:
+                document.write("포테이토 피자");
+                break;
+            case 3:
+                document.write("페퍼로니 피자");
+                break;
+            case 2:
+                document.write("불고기 피자");
+                break;
+            case 1:
+                document.write("치즈 피자");
+                break;
+            default:
+                document.write("주문 안하실건가요?");
+        }
+    </script>
+</body>
+</html>
